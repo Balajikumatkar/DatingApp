@@ -43,7 +43,6 @@ namespace DatingApp.API
            // app.UseHttpsRedirection();
             app.UseCors(x=>x.AllowAnyOrigin().AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
             app.UseRouting();
-
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
