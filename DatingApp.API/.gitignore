@@ -1,2 +1,5 @@
 .vscode
 *.db
+*.dll
+appsettings.json
+appsettings.Development.json
