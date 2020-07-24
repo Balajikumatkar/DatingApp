@@ -1,4 +1,4 @@
-.vscode
+*.vscode
 *.db
 *.dll
 appsettings.json
