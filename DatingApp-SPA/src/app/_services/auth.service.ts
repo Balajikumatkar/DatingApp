@@ -21,4 +21,9 @@ return this.http.post(this.baseurl + 'login', model)
 }));
 }
 
+public register(model:any)
+{
+  return this.http.post(this.baseurl+ 'register', model);
+}
+
 }
